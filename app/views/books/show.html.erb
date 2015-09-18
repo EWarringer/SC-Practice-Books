@@ -1,0 +1,16 @@
+<h1>Title: <%= @book.title %>  (isbn: <%= @book.isbn_code %>)</h1>
+<h2>Author: <%= @book.author %></h2>
+<h3>Genre: <%= @book.genre %> </h3>
+<h3>Description: <%= @book.description %></h3>
+
+<%= link_to "back", books_path %>
+
+
+<h4>Reviews</h4>
+
+<% @reviews.each do |review| %>
+  <%= review.rating %>
+  <%= review.body %>
+<% end %>
+
+<%= link_to "Add Review", new_book_review_path %>

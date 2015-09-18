@@ -3,12 +3,12 @@
 Practice Rails MVC and Nested Routing
 Create a Rails application that allows users to view books. The application must satisfy the following criteria:
 
-[] A book has to have a title, author, and isbn code. It can optionally have a description and a genre.
-[] Visiting the /books path should contain a list of books.
-[] Visiting the /books/new path should display a form for adding a new book.
-[] If a book is saved I'm redirected to to /books and should new the book name I've added, if it is not I'm left on the /books/new page and displayed an error.
-[] Visiting the /books/5 path should show the book details for a book with ID = 5.
-[] Visiting the root path should display a list of all books.
+[√] A book has to have a title, author, and isbn code. It can optionally have a description and a genre.
+[√] Visiting the /books path should contain a list of books.
+[√] Visiting the /books/new path should display a form for adding a new book.
+[√] If a book is saved I'm redirected to to /books and should new the book name I've added, if it is not I'm left on the /books/new page and displayed an error.
+[√] Visiting the /books/5 path should show the book details for a book with ID = 5.
+[√] Visiting the root path should display a list of all books.
 
 Once these criteria have been met, add the ability for users to review books. For this challenge assume all books and reviews are added anonymously. The application must satisfy the following criteria:
 
