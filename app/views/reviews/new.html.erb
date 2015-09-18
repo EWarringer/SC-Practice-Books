@@ -1,0 +1,10 @@
+<h1>Add a Review </h1>
+<%= form_for [@book, @review] do |f| %>
+  <%= f.label :rating %>
+  <%= f.text_field :rating %>
+  <br>
+  <%= f.label :body %>
+  <%= f.text_field :body %>
+  <br>
+  <%= f.submit "Add Review" %>
+<% end %>

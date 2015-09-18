@@ -1,8 +1,9 @@
 class CreateReviews < ActiveRecord::Migration
   def change
     create_table :reviews do |t|
-      t.integer :rating, presence: true
-      t.string :body, presence: true
+      t.integer :rating, null: false
+      t.string :body, null: false
+      t.integer :book_id, null: false
       t.timestamps
     end
   end

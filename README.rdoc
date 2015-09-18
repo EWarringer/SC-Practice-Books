@@ -12,10 +12,10 @@ Create a Rails application that allows users to view books. The application must
 
 Once these criteria have been met, add the ability for users to review books. For this challenge assume all books and reviews are added anonymously. The application must satisfy the following criteria:
 
-[] A book can have many reviews. Each review must contain a rating between only 1 and 5, a body, and a timestamp for when it was created.
-[] If a review is saved, I'm redirected to the bathroom/5 path, if it is not saved, I should be left on the new review form page and render errors associated with the review.
-[] Visiting the /books/5/reviews/new should display a form for creating a new review for a book with ID = 5.
-[] Visiting the /books/5 path should also include all reviews for a book with ID = 5.
+[√] A book can have many reviews. Each review must contain a rating between only 1 and 5, a body, and a timestamp for when it was created.
+[√] If a review is saved, I'm redirected to the bathroom/5 path, if it is not saved, I should be left on the new review form page and render errors associated with the review.
+[√] Visiting the /books/5/reviews/new should display a form for creating a new review for a book with ID = 5.
+[√] Visiting the /books/5 path should also include all reviews for a book with ID = 5.
 
 For additional practice create some acceptance tests that allow the user to complete the following stories.(Hint these should be passing according the above criteria):
 

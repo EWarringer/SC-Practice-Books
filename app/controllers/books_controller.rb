@@ -4,8 +4,9 @@ class BooksController < ApplicationController
   end
 
   def show
+    # binding.pry
     @book = Book.find(params[:id])
-    @review = @book.reviews
+    @reviews = @book.reviews
   end
 
   def new
